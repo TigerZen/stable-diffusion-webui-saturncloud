@@ -10,10 +10,9 @@
 !git reset --hard
 !git -C /home/jovyan/workspace/ui/repositories/stable-diffusion-stability-ai reset --hard
 
-!aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/TigerZen/GeminiX/resolve/main/geminixMix_v10.safetensors -d /home/jovyan/workspace/ui/models/Stable-diffusion -o geminixMix_v10.safetensors
+!aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/TigerZen/GeminiX/resolve/main/geminixMix_v10.safetensors -d /home/jovyan/workspace/ui/models/Stable-diffusion -o geminixMix_v1.safetensors
 
 !aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/TigerZen/GeminiX/resolve/main/geminixMix_V2.safetensors -d /home/jovyan/workspace/ui/models/Stable-diffusion -o geminixMix_V2.safetensors
-.safetensors
 
 !aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/TigerZen/GeminiX/resolve/main/geminixMix_V3.safetensors -d /home/jovyan/workspace/ui/models/Stable-diffusion -o geminixMix_V3.safetensors
 
